@@ -1,0 +1,10 @@
+stages:
+-deploy
+deploy_control:
+stage:deploy
+script:
+-echo "Deploying Control Version"
+deploy_variant:
+stage:deploy
+script:
+-echo "Deploying Variant Version"
